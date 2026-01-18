@@ -1,0 +1,21 @@
+.Container {
+  
+  width: 350px; 
+  background-color: bisque;
+  border: 1px solid black;
+  padding: 10px;
+}
+#name-error,#email-error,#age-error,#gender-error,#course-error{
+    color: red;
+    font-size: 14px;
+}
+#result table {
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+#result th, #result td {
+  border: 1px solid black;
+  padding: 8px 12px;
+  text-align: left;
+}

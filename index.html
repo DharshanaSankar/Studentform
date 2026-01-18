@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
+    <title>Student-Form</title>
+</head>
+<body>
+    <div class="Container">
+        <!-- Name -->
+        <label for="input" >Name:</label>
+        <input type="text" id="nameinput"><br>
+        <p id="name-error"></p>
+        <!-- Age -->
+        <label for="input">Age:</label>
+        <input type="text" id="ageinput"><br><br>
+        <p id="age-error"></p>
+        <!-- Gender -->
+        <label for="input">Gender:</label>
+        
+            <label >
+                <input type="radio" name="Gender">Male
+            </label>
+            <label >
+                <input type="radio" name="Gender">FeMale
+            </label><br><br>
+        <p id="gender-error"></p>
+        <!-- Course -->
+        <label for="input">Course:</label>
+        <input type="text" id="courseinput"><br><br>
+        <p id="course-error"></p>
+         <!-- Email -->
+        <label for="input">E-mail:</label>
+        <input type="email" id="mailinput"><br>
+        <p id="email-error"></p>
+
+        <button id="btn" >Save</button>    
+    </div>
+    <div id="result" >
+<table id="studentTable" border="1" cellpadding="8" cellspacing="0">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Gender</th>
+      <th>Course</th>
+      <th>Email</th>
+      <th>Action</th>
+    </tr>
+  </table>
+    </div>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
